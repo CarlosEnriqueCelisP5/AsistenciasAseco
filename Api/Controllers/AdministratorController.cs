@@ -21,7 +21,12 @@ namespace Api.Controllers
         {
             return Ok("carlos venegas");
         }
+    
+         [HttpGet("AsistenciaM")]
+        public IActionResult AsistenciaM()
+        {
+            return Ok("Mayra");
+        }
     }
-
 
 }
