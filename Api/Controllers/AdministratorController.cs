@@ -15,5 +15,12 @@ namespace Api.Controllers
         {
             return Ok("Hola Mundo");
         }
+
+         [HttpGet("AsistenciaM")]
+        public IActionResult AsistenciaM()
+        {
+            return Ok("Mayra");
+        }
     }
+
 }
